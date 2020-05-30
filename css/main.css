@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+@font-face {
+
+  font-family: 'MyriadVariableConcept-Roman';
+
+  src: url(../Fonts/MyriadVariableConcept-Roman.otf);
+
+  font-weight: 400;
+
+  font-style: normal
+
+}
+
+@font-face {
+
+  font-family: 'MyriadPro-Regular';
+
+  src: url(../Fonts/MyriadPro-Regular.otf);
+
+  font-weight: 400;
+
+  font-style: normal
+
+}
+
+
+
+img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+
+	color: #000;
+margin:0;
+padding: 0;
+  overflow: hidden;
+  font-family: 'MyriadPro-Regular';
+
+}
+
+figure{
+	margin: 0
+}
+
+.mainbox {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+    width: 10%;
+}
+
+.top-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+      width: 27%;
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 24%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 14%;
+}
+
+.centered {
+position: absolute;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 2% 14.5%;
+    height: 100vh;
+    overflow-y: auto;
+
+
+}
+
+.logo{
+	    width: 18%;
+    margin: 0 auto;
+}
+
+.realcalc{
+	width: 200px !important;
+}
+section.banner {
+       margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.banner p{
+       font-family: 'MyriadPro-Regular';
+    color: #6d6e70;
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: left;
+}
+.calcform {
+    background: #e6e7e8;
+    padding: 8%;
+    border-radius: 27px;
+}
+
+   .input-hidden {
+
+  position: absolute;
+
+  left: -9999px;
+
+}
+
+.radiobox label {
+      margin: 0 3%;
+    width: 44%;
+    display: inline-block;
+    float: left
+}
+
+.radiobox  input[type=radio]:checked + label>img {
+
+/*  border: 1px solid #fff;*/
+
+/*  box-shadow: 0 0 3px 3px #090;*/
+ 
+
+}
+
+
+
+/* Stuff after this is only to make things more pretty */
+
+.radiobox  input[type=radio] + label>img {
+
+/*  border: 1px dashed #444;*/
+
+  width: 100%;
+
+/*  height: 300px;*/
+
+  transition: 500ms all;
+   opacity: 0.36
+
+}
+
+
+
+.radiobox  input[type=radio]:checked + label>img {
+
+/*  border: 2px solid #000;*/
+  opacity: 1
+
+}
+.form-control{
+	border: 0;
+	border-radius: 0;
+}
+
+.form-group{
+	text-align: left;
+}
+.form-group h4{
+
+	color: #929497;
+	    font-size: 14px;
+}
+.radiobox {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7%;
+}
+.numberbox{
+	padding-left: 7%
+}
+
+.number{
+	width: 100%
+}
+
+.submit{
+color: #003f69;
+    font-weight: 600;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    font-size: 22px;
+    margin-top: 2%;
+}
+.details h3{
+    color: #003f69;
+    font-weight: 900;
+    text-align: left;
+ 
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+.details {
+    padding: 2.5% 2%;
+}
+.details h3 span{
+	    margin: 0 3%;
+}
+.divider{
+	margin: 15px 0;
+    border-top: 1px solid #000
+}
+.details  p{
+	color: #000;
+	text-align: left;
+}
+.contactdetails{
+	border-top: 1px solid #000;
+    padding-top: 15px;
+    display: table;
+    justify-content: left;
+   
+}
+.contactdetails p{
+	    color: #003f69;
+	    font-weight: 900;
+}
+.contactdetails p span{
+
+}
+.contactdetails p span a{
+	    font-size: 163%;
+    color: #003f69;
+    text-decoration: none;
+}
+.art{
+	width: 152%;
+    margin-left: -37%;
+    margin-top: 15%;
+}
